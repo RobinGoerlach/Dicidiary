@@ -1,13 +1,16 @@
-import NavBar from "./components/NavBar";
+import NavBar from "./components/NavBar";    
+import Footer from "./components/Footer";
 
-
-function App() {
+const App = () => {
   return (
-    <div >
+    <div className="bg-base-200 flex items-center justify-center min-h-screen">
+         <div >
       
           <NavBar/>
 
       </div>
+    <Footer />
+    </div>
   );
 };
 
