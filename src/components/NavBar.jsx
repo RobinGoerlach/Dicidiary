@@ -1,14 +1,16 @@
 const Navbar = () => {
-    return (
-      <nav className="navbar navbar-light bg-light">
-        <div className="container-fluid d-flex justify-content-between align-items-center">
-          <div className="text-center flex-grow-1">
-            <h5 className="mb-0">This is your Personal Diary</h5>
-          </div>
-          <button className="btn btn-primary ms-auto">Add Entry</button>
-        </div>
-      </nav>
-    );
-  };
+  
+ return (
+  <nav className="flex justify-between items-center p-4 bg-white shadow-md">
+    <div className="text-2xl font-bold text-primary">
+      Personal Diary
+    </div>
+    <button className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 transition-colors">
+      Add Entry
+    </button>
+  </nav>
+);
+};
+
   
   export default Navbar;
