@@ -1,15 +1,13 @@
-import NavBar from "./components/NavBar";    
+import NavBar from "./components/NavBar";
+import DiaryEntriesList from "./Components/DiaryEntriesList";
 import Footer from "./components/Footer";
 
 const App = () => {
   return (
-    <div className="bg-base-200 flex items-center justify-center min-h-screen">
-         <div >
-      
+      <div>      
           <NavBar/>
-
-      </div>
-    <Footer />
+          <DiaryEntriesList />
+          <Footer />
     </div>
   );
 };
