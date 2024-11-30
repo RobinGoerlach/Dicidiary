@@ -1,4 +1,4 @@
-import DiaryEntriesList from "./Components/DiaryEntriesList";
+import DiaryEntriesList from "./components/DiaryEntriesList";
 
 const App = () => {
   return (
@@ -10,6 +10,7 @@ const App = () => {
           <p className="mt-4 text-lg text-secondary">
             This is your personal digital Diary
           </p>
+
           <DiaryEntriesList />
         </div>
       </div>
