@@ -1,4 +1,6 @@
+import React from "react";
 import Footer from "./components/Footer";
+import Modal from "./components/Modal";
 
 const App = () => {
   return (
@@ -9,9 +11,16 @@ const App = () => {
           This is your personal digital Dary
         </p>
       </div>
+      
+     
+      <div>
+      <Modal />
+      </div>
+      
       <Footer />
     </div>
   );
+  
 };
 
 export default App;
