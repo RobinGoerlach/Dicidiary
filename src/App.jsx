@@ -1,19 +1,17 @@
 import NavBar from "./components/NavBar";
-import DiaryEntriesList from "./Components/DiaryEntriesList";
+import DiaryEntries from "./components/DiaryEntries";
 import Footer from "./components/Footer";
 import Modal from "./components/Modal";
 
 const App = () => {
   return (
-
-      <div>      
-          <NavBar/>
-          <Modal />
-          <DiaryEntriesList />
-          <Footer />
+    <div>
+      <NavBar />
+      <Modal />
+      <DiaryEntries />
+      <Footer />
     </div>
   );
-  
 };
 
 export default App;
