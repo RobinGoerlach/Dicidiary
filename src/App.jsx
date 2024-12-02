@@ -1,7 +1,7 @@
 import NavBar from "./components/NavBar";
+import Modal from "./components/Modal";
 import DiaryEntries from "./components/DiaryEntries";
 import Footer from "./components/Footer";
-import Modal from "./components/Modal";
 
 const App = () => {
   return (
